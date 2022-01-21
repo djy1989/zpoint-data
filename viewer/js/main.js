@@ -129,7 +129,7 @@ function mainLoadSlideInfo(paper, slide) {
        if (xmlhttp.status == 200) {
 	       var slideInfo = JSON.parse(xmlhttp.responseText);
 		   var slideName = '<font color=gray>Точка сборки - 3D</font>&nbsp;&nbsp;&nbsp;&nbsp;' + slideInfo.slideName;
-		   mainSetHtmlByClass('slide-name', slideName)
+		   // mainSetHtmlByClass('slide-name', slideName)
 	    }
 	 }
   };
